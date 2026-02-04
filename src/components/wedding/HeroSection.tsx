@@ -16,7 +16,7 @@ const HeroSection = () => {
       
       {/* Wedding Date */}
       <p className="text-primary font-elegant text-base font-semibold mb-2">
-        14.12.2025
+        12.03.2026
       </p>
       
       {/* Invitation Text */}
@@ -29,7 +29,7 @@ const HeroSection = () => {
         <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden border-4 border-primary/30 shadow-lg -mr-4 z-10">
           <img 
             src={groomAvatar} 
-            alt="Chú rể - Quốc Khánh"
+            alt="Chú rể - Bá Thức"
             className="w-full h-full object-cover"
           />
         </div>
@@ -41,7 +41,7 @@ const HeroSection = () => {
         <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden border-4 border-primary/30 shadow-lg -ml-4 z-10">
           <img 
             src={brideAvatar} 
-            alt="Cô dâu - Thu Phương"
+            alt="Cô dâu - Vân Anh"
             className="w-full h-full object-cover"
           />
         </div>

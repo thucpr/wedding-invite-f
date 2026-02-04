@@ -36,13 +36,17 @@ const TimelineSection = () => {
       
       {/* Content */}
       <div className="relative z-10 py-4 px-4 text-center text-white">
-        <p className="font-elegant text-[10px] uppercase tracking-[0.2em] mb-1 opacity-90">
-          Sự kiện đặc biệt của chúng tôi
-        </p>
+         <p className="font-serif text-[10px] uppercase tracking-[0.25em] mb-1 opacity-90">
+             SỰ KIỆN ĐẶC BIỆT CỦA CHÚNG TÔI
+         </p>
+
         
-        <h2 className="font-script text-2xl sm:text-3xl mb-3">
-          Lịch trình
-        </h2>
+          <h2 className="font-playfair text-sm sm:text-base mb-2 font-medium tracking-widest uppercase">
+              LỊCH TRÌNH
+          </h2>
+
+
+
         
         {/* Timeline Cards */}
         <div className="flex gap-3 max-w-md mx-auto">
@@ -53,14 +57,14 @@ const TimelineSection = () => {
             </h4>
             <div className="p-2 space-y-0">
               <EventItem 
-                time="09:00, CN" 
-                date="07/12/2025" 
+                time="17:00, Thứ 4" 
+                date="11/03/2026" 
                 event="Bữa cơm thân mật" 
               />
               <EventItem 
-                time="08:00, CN" 
-                date="07/12/2025" 
-                event="Lễ vu quy" 
+                time="15:00, Thứ 2" 
+                date="09/03/2026" 
+                event="Lễ nạp tài" 
               />
             </div>
           </div>
@@ -72,13 +76,13 @@ const TimelineSection = () => {
             </h4>
             <div className="p-2 space-y-0">
               <EventItem 
-                time="17:00, Thứ 7" 
-                date="13/12/2025" 
+                time="17:00, Thứ 4" 
+                date="11/03/2026" 
                 event="Bữa cơm thân mật" 
               />
               <EventItem 
-                time="11:00, CN" 
-                date="14/12/2025" 
+                time="11:00, Thứ 5" 
+                date="12/03/2026" 
                 event="Lễ thành hôn" 
               />
             </div>
