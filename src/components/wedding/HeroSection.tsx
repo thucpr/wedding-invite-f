@@ -14,7 +14,10 @@ const HeroSection = () => {
         Xin chào {guestName}!
       </h1>
 
-  
+      <p className="text-primary font-elegant text-base font-semibold mb-2">
+        Happy Wedding
+      </p>
+
       {/* Wedding Date */}
       <p className="text-primary font-elegant text-base font-semibold mb-2">
         12.03.2026
