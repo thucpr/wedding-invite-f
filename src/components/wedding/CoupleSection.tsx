@@ -7,10 +7,11 @@ const CoupleSection = () => {
           <h3 className="font-script text-xl sm:text-2xl text-primary mb-1">
             Bá Thức
           </h3>
-          <p className="font-elegant text-xs sm:text-sm text-foreground/80 leading-snug">
-            Chàng IT, cả ngày chỉ biết debug, ai ngờ dính luôn "bug tình cảm" với cô Merchandiser. 
-            Từ đó, chàng IT chẳng còn "gỡ lỗi", mà chỉ biết mắc lỗi cho tình yêu! 😂
-          </p>
+        <p className="font-sans text-xs sm:text-sm text-foreground/80 leading-snug">
+            Chàng IT quen sửa lỗi bug 😂, gặp nàng mới biết, có những "vấn đề" sinh ra để yêu 
+            và chăm sóc cả đời 🥰
+        </p>
+
         </div>
         
         {/* Bride */}
@@ -18,7 +19,7 @@ const CoupleSection = () => {
           <h3 className="font-script text-xl sm:text-2xl text-primary mb-1">
             Vân Anh
           </h3>
-          <p className="font-elegant text-xs sm:text-sm text-foreground/80 leading-snug">
+          <p className="font-sans text-xs sm:text-sm text-foreground/80 leading-snug">
             Nàng CS, xinh gái, năng động, duyệt mẫu nhanh như gió, 
             vậy mà chỉ chậm một nhịp... là rơi vào "bản thiết kế tình yêu" của chàng IT! 🥰
           </p>

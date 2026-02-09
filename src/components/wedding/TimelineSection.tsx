@@ -12,8 +12,13 @@ const EventItem = ({ time, date, event }: EventItemProps) => (
     <div className="flex items-center gap-1 min-w-[80px]">
       <Clock className="w-3 h-3 opacity-70 flex-shrink-0" />
       <div className="text-left">
-        <p className="text-[10px] sm:text-xs font-medium leading-tight">{time}</p>
-        <p className="text-[9px] sm:text-[10px] opacity-70">{date}</p>
+<p className="text-[10px] sm:text-xs font-medium leading-tight">
+  {time}
+</p>
+<p className="text-[10px] sm:text-xs opacity-90 font-medium">
+  {date}
+</p>
+
       </div>
     </div>
     <div className="flex items-center gap-1">
@@ -36,18 +41,15 @@ const TimelineSection = () => {
       
       {/* Content */}
       <div className="relative z-10 py-4 px-4 text-center text-white">
-         <p className="font-serif text-[10px] uppercase tracking-[0.25em] mb-1 opacity-90">
-             SỰ KIỆN ĐẶC BIỆT CỦA CHÚNG TÔI
-         </p>
+           <p className="font-serif text-xs uppercase tracking-[0.25em] mb-1 opacity-90">
+              SỰ KIỆN ĐẶC BIỆT CỦA CHÚNG TÔI
+           </p>
 
-        
+
           <h2 className="font-playfair text-sm sm:text-base mb-2 font-medium tracking-widest uppercase">
               LỊCH TRÌNH
           </h2>
 
-
-
-        
         {/* Timeline Cards */}
         <div className="flex gap-3 max-w-md mx-auto">
           {/* Nhà Gái */}
@@ -62,9 +64,9 @@ const TimelineSection = () => {
                 event="Bữa cơm thân mật" 
               />
               <EventItem 
-                time="15:00, Thứ 2" 
+                time="16:00, Thứ 2" 
                 date="09/03/2026" 
-                event="Lễ nạp tài" 
+                event="Lễ Vu Quy" 
               />
             </div>
           </div>
@@ -83,7 +85,7 @@ const TimelineSection = () => {
               <EventItem 
                 time="11:00, Thứ 5" 
                 date="12/03/2026" 
-                event="Lễ thành hôn" 
+                event="Lễ Thành Hôn" 
               />
             </div>
           </div>

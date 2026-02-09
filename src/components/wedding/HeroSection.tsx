@@ -10,10 +10,11 @@ const HeroSection = () => {
   return (
     <section className="wedding-section bg-background text-center pt-6 pb-4">
       {/* Greeting */}
-      <h1 className="font-script text-3xl sm:text-4xl text-primary mb-2 animate-fade-in">
+      <h1 className="font-playfair text-3xl sm:text-4xl text-primary mb-2 animate-fade-in">
         Xin chào {guestName}!
       </h1>
-      
+
+  
       {/* Wedding Date */}
       <p className="text-primary font-elegant text-base font-semibold mb-2">
         12.03.2026
