@@ -21,9 +21,10 @@ const HeroSection = () => {
       </p>
       
       {/* Invitation Text */}
-      <p className="font-script text-base sm:text-lg text-foreground/80 max-w-xs mx-auto leading-snug mb-4 italic">
-        Chúng tôi trân trọng mời bạn và người thương đến dự lễ cưới của chúng tôi
-      </p>
+<p className="font-sans text-base sm:text-lg text-pink-500 max-w-xs mx-auto leading-snug mb-4">
+  Chúng tôi trân trọng mời bạn và người thương đến dự lễ cưới của chúng tôi
+</p>
+
       
       {/* Couple Avatars */}
       <div className="flex items-center justify-center gap-0 mb-4">
