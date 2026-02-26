@@ -1,4 +1,5 @@
-import weddingCouple from "@/assets/wedding-couple.jpg";
+
+import weddingCouple from "../../image/g6.jpg";
 import { Clock, Calendar } from "lucide-react";
 
 interface EventItemProps {
@@ -30,17 +31,17 @@ const EventItem = ({ time, date, event }: EventItemProps) => (
 
 const TimelineSection = () => {
   return (
-    <section className="relative min-h-[280px]">
+    <section className="relative min-h-[75vh] flex items-center justify-center">
       {/* Background Image */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${weddingCouple})` }}
-      >
+  className="absolute inset-0 bg-cover bg-no-repeat bg-[position:50%_30%]"
+  style={{ backgroundImage: `url(${weddingCouple})` }}
+>
         <div className="absolute inset-0 bg-black/40" />
       </div>
       
       {/* Content */}
-      <div className="relative z-10 py-4 px-4 text-center text-white">
+      <div className="relative z-10 px-4 text-center text-white w-full">
            <p className="font-serif text-xs uppercase tracking-[0.25em] mb-1 opacity-90">
               SỰ KIỆN ĐẶC BIỆT CỦA CHÚNG TÔI
            </p>
@@ -59,7 +60,7 @@ const TimelineSection = () => {
             </h4>
             <div className="p-2 space-y-0">
               <EventItem 
-                time="17:00, Thứ 4" 
+                time="16:00, Thứ 4" 
                 date="11/03/2026" 
                 event="Bữa cơm thân mật" 
               />

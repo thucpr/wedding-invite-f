@@ -8,8 +8,7 @@ const CoupleSection = () => {
             Bá Thức
           </h3>
         <p className="font-sans text-xs sm:text-sm text-foreground/80 leading-snug">
-            Chàng IT quen sửa lỗi bug 😂, gặp nàng mới biết, có những "vấn đề" sinh ra để yêu 
-            và chăm sóc cả đời 🥰
+            Chàng IT quen viết code và sửa bug, khi gặp đúng người, chàng nhận ra có một “vấn đề” không cần sửa chữa - chỉ cần yêu thương và bảo vệ cả đời 😍
         </p>
         </div>
         
@@ -19,8 +18,7 @@ const CoupleSection = () => {
             Vân Anh
           </h3>
           <p className="font-sans text-xs sm:text-sm text-foreground/80 leading-snug">
-            Nàng CS, xinh gái, năng động, duyệt mẫu nhanh như gió, 
-            vậy mà chỉ chậm một nhịp... là rơi vào "bản thiết kế tình yêu" của chàng IT! 🥰
+            Nàng CS xinh xắn với nụ cười dịu dàng, quen lắng nghe và thấu hiểu cảm xúc của khách hàng nàng tình cỡ đã gặp được “vị khách” muốn ở bên để chăm sóc suốt đời và làm bến đỗ hạnh phúc💕
           </p>
         </div>
       </div>

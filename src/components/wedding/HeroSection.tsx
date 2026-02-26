@@ -1,6 +1,6 @@
 import { useSearchParams } from "react-router-dom";
-import groomAvatar from "@/assets/groom-avatar.jpg";
-import brideAvatar from "@/assets/bride-avatar.jpg";
+import groomImg from "../../image/cr.jpg";
+import brideImg from "../../image/cd.jpg";
 import { Heart } from "lucide-react";
 
 const HeroSection = () => {
@@ -33,7 +33,7 @@ const HeroSection = () => {
       <div className="flex items-center justify-center gap-0 mb-4">
         <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden border-4 border-primary/30 shadow-lg -mr-4 z-10">
           <img 
-            src={groomAvatar} 
+            src={groomImg} 
             alt="Chú rể - Bá Thức"
             className="w-full h-full object-cover"
           />
@@ -45,7 +45,7 @@ const HeroSection = () => {
         
         <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden border-4 border-primary/30 shadow-lg -ml-4 z-10">
           <img 
-            src={brideAvatar} 
+            src={brideImg} 
             alt="Cô dâu - Vân Anh"
             className="w-full h-full object-cover"
           />
