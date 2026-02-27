@@ -41,7 +41,7 @@ const TimelineSection = () => {
       </div>
       
       {/* Content */}
-     <div className="absolute inset-0 flex flex-col items-center justify-center text-white -translate-y-20">
+    <div className="absolute inset-0 flex flex-col items-center justify-start pt-16 sm:pt-40 text-white">
            <p className="font-serif text-xs uppercase tracking-[0.25em] mb-1 opacity-90">
               SỰ KIỆN ĐẶC BIỆT CỦA CHÚNG TÔI
            </p>
