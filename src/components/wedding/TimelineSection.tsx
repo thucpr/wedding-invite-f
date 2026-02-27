@@ -34,14 +34,14 @@ const TimelineSection = () => {
     <section className="relative min-h-[75vh] flex items-center justify-center">
       {/* Background Image */}
       <div 
-  className="absolute inset-0 bg-cover bg-no-repeat bg-[position:50%_30%]"
+  className="absolute inset-0 bg-cover bg-no-repeat bg-[position:50%_120%]"
   style={{ backgroundImage: `url(${weddingCouple})` }}
 >
         <div className="absolute inset-0 bg-black/40" />
       </div>
       
       {/* Content */}
-      <div className="relative z-10 px-4 text-center text-white w-full">
+     <div className="absolute inset-0 flex flex-col items-center justify-center text-white -translate-y-20">
            <p className="font-serif text-xs uppercase tracking-[0.25em] mb-1 opacity-90">
               SỰ KIỆN ĐẶC BIỆT CỦA CHÚNG TÔI
            </p>
