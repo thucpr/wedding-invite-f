@@ -42,11 +42,7 @@ const TimelineSection = () => {
       
       {/* Content */}
     <div className="absolute inset-0 flex flex-col items-center justify-start pt-16 sm:pt-40 text-white">
-           <p className="font-serif text-xs uppercase tracking-[0.25em] mb-1 opacity-90">
-              SỰ KIỆN ĐẶC BIỆT CỦA CHÚNG TÔI
-           </p>
-
-
+    
           <h2 className="font-playfair text-sm sm:text-base mb-2 font-medium tracking-widest uppercase">
               LỊCH TRÌNH
           </h2>
